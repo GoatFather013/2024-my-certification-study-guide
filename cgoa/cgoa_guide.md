@@ -109,7 +109,7 @@ The integration of GitOps tooling with other systems for notifications, monitori
 - [Red Hat - What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops)
 - [GitOps Tech](https://www.gitops.tech/)
 - [GitOps Primer by Peter Rombouts](https://peterrombouts.nl/2022/05/16/gitops-primer/)
-
+https://opengitops.dev/
 ### Time Spent
 *(To be documented as you progress)*
 
