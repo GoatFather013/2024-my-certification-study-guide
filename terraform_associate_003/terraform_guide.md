@@ -137,10 +137,11 @@ HCP Terraform supports collaboration, policy management, and governance, enhanci
 ## Additional Resources
 
 ### Courses:
-*(To be added)*
+- [HashiCorp Certified Terraform Associate](https://learn.acloud.guru/course/hashicorp-certified-terraform-associate-1)
+- [Using Terraform to Manage Applications and Infrastructure](https://learn.acloud.guru/course/using-terraform-to-manage-applications-and-infrastructure)
 
 ### Practice Exams:
 - [Terraform Associate Practice Exam on Udemy](https://www.udemy.com/course/terraform-associate-practice-exam/)
 
 ### Time Spend:
-*(To be added)*
+- 24 hours
