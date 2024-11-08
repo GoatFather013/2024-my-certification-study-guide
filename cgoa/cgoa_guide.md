@@ -100,17 +100,19 @@ The integration of GitOps tooling with other systems for notifications, monitori
 ### Courses
 - [Git for Beginners - KodeKloud](https://learn.kodekloud.com/user/courses/git-for-beginners)
 - [GitOps with ArgoCD - KodeKloud](https://learn.kodekloud.com/user/courses/gitops-with-argocd)
+- [Introduction to GitOps (LFS169)](https://trainingportal.linuxfoundation.org/courses/introduction-to-gitops-lfs169)
 
 ### Practice Exams
-*(To be added)*
+*Non Found*
 
 ### Sources
 - [GitOps on GitLab](https://about.gitlab.com/topics/gitops/)
 - [Red Hat - What is GitOps?](https://www.redhat.com/en/topics/devops/what-is-gitops)
 - [GitOps Tech](https://www.gitops.tech/)
 - [GitOps Primer by Peter Rombouts](https://peterrombouts.nl/2022/05/16/gitops-primer/)
-https://opengitops.dev/
+- [Open GitOps](https://opengitops.dev/)
+
 ### Time Spent
-*(To be documented as you progress)*
+*4 - 8 hours*
 
 ---
