@@ -9,10 +9,11 @@ To assist friends and colleagues in passing the certifications I’ve completed 
 
 ## 2. Experience Level
 
-**Your Experience:**
+**My Experience:**
 - **Kubernetes:**  
   - 1.5 years of experience working with Amazon EKS, a managed Kubernetes platform.
   - No hands-on experience with self-managed or full production Kubernetes clusters.
+  - Achieved Kubestronaut status in September 2024
   
 - **Professional Background:**  
   - 9 years of experience as a Systems/Cloud/DevOps engineer.
@@ -24,8 +25,8 @@ To assist friends and colleagues in passing the certifications I’ve completed 
 
 The repository contains various subfolders with information and resources for specific certifications:
 
-- **[CGOA](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
-- **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Study materials and resources for the Terraform Associate (TA-003) certification.
+- **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
+- **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003) certification.
 
 Each folder contains a `README.md` with tailored guidance, tips, and useful resources specific to the certification in question.  
 
