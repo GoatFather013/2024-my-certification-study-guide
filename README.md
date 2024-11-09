@@ -28,6 +28,7 @@ The repository contains various subfolders with information and resources for sp
 - **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
 - **[Python Certified Entry Programmer](./pcep-30-02/pcep_guide.md)** Guide for the Python Certified Entry Programmer 30-02 (PCEP) certification.
   - **[PCEP Exam Syllabus](./pcep-30-02/pcep-30-02-exam-syllabus.pdf)** The exam syllabus for PCEP.
+- **[SLES Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SLES Certified Systetm Administrator 15 certification.
 - **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
   - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
 
