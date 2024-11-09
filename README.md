@@ -31,13 +31,20 @@ The repository contains various subfolders with information and resources for sp
 
 **Associate Level Certifications**
 - **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
-- **[SLES Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SLES Certified Systetm Administrator 15 certification.
+- **Kubernetes and Cloud Native Associate (WIP/Coming Soon)**
+- **Kubernetes and Cloud Native Security Associate (WIP/Coming Soon)**
+- **Prometheus Certified Associate (WIP/Coming Soon)**
+- **[SUSE Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SUSE Certified Systetm Administrator 15 certification.
 - **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
   - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
 
 **Professional Level Certifications**
+- **Certified Kubernetes Administrator (WIP/Coming Soon)**
+- **Certified Kubernetes Application Developer (WIP/Coming Soon)**
 
 **Speciality Level Certifications**
+- **Certified Kubernetes Security Specialist (WIP/Coming Soon)**
+- **AWS Security Specialty (WIP/Coming Soon)**
 
 Each folder contains a `README.md` with tailored guidance, tips, and useful resources specific to the certification in question.  
 
