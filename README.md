@@ -27,7 +27,7 @@ The repository contains various subfolders with information and resources for sp
 
 - **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
 - **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
-- - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
+  - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
 
 Each folder contains a `README.md` with tailored guidance, tips, and useful resources specific to the certification in question.  
 
