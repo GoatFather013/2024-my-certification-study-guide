@@ -71,3 +71,36 @@ terraform apply
 - -var-file="file.tfvars": **Loads variable definitions from a .tfvars file.**
 
 ---
+
+## terraform destroy
+
+### Explantion
+
+Deletes all infrastructure resources defined in the configuration, effectively dismantling the setup created by Terraform.
+
+**Usage**
+```bash
+terraform destroy
+```
+
+### Options
+- -auto-approve: **Skips the confirmation prompt, immediately proceeding with resource deletion.**
+- -target="resource_type.resource_name": **Deletes only specified resources, preserving the rest.**
+
+---
+
+## terraform format
+
+### Explantion
+
+Formats Terraform configuration files according to standard conventions, ensuring consistency across the codebase.
+
+**Usage**
+```bash
+terraform fmt
+```
+
+### Options
+- -recursive: **Applies formatting to files in subdirectories as well.**
+
+---
