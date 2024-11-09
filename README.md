@@ -25,12 +25,19 @@ To assist friends and colleagues in passing the certifications I’ve completed 
 
 The repository contains various subfolders with information and resources for specific certifications:
 
-- **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
+**Entry Level Certifications**
 - **[Python Certified Entry Programmer](./pcep-30-02/pcep_guide.md)** Guide for the Python Certified Entry Programmer 30-02 (PCEP) certification.
   - **[PCEP Exam Syllabus](./pcep-30-02/pcep-30-02-exam-syllabus.pdf)** The exam syllabus for PCEP.
+
+**Associate Level Certifications**
+- **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
 - **[SLES Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SLES Certified Systetm Administrator 15 certification.
 - **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
   - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
+
+**Professional Level Certifications**
+
+**Speciality Level Certifications**
 
 Each folder contains a `README.md` with tailored guidance, tips, and useful resources specific to the certification in question.  
 
