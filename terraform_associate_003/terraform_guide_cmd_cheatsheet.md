@@ -104,3 +104,58 @@ terraform fmt
 - -recursive: **Applies formatting to files in subdirectories as well.**
 
 ---
+
+## terraform import
+
+Imports existing infrastructure resources into Terraform, adding them to the state file so they can be managed by Terraform.
+
+**Usage**
+```bash
+terraform import <resource_type.resource_name> <resource_id>
+```
+
+**Usage**
+```bash
+terraform import aws_instance.example i-1234567890abcdef0
+```
+
+---
+
+## terraform output
+
+### Explantion
+
+Displays the values of output variables defined in the configuration. Useful for retrieving data from the Terraform state.
+
+**Usage**
+```bash
+terraform output
+```
+
+### Options
+- -json: **Outputs data in JSON format.**
+- -raw: **Returns the raw string value of the output without quotation marks.**
+
+---
+
+## terraform state
+
+### Explantion
+
+Manages and inspects the state file, which tracks resources managed by Terraform.
+
+**Usage**
+```bash
+terraform state <subcommand>
+```
+
+### Subcommands
+- list **List resources in the state**
+- mv **Move an item in the state**
+- pull **Pull current state and output to stdout**
+- push **Update remote state from a local state file**
+- replace-provider **Replace provider in the state**
+- rm **Remove instances from the state**
+- show **Show a resource in the state**
+
+---
