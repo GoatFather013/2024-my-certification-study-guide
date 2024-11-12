@@ -44,7 +44,8 @@ The repository contains various subfolders with information and resources for sp
 
 **Speciality Level Certifications**
 - **Certified Kubernetes Security Specialist (WIP/Coming Soon)**
-- **AWS Security Specialty (WIP/Coming Soon)**
+- **[AWS Security Specialty](./aws_security_speciality_SCS_C02/aws_scs02_guide.md)**
+  - **[AWS Security PDF Guide](./aws_security_speciality_SCS_C02/AWS-Certified-Security-Specialty_Exam-Guide.pdf)**
 
 Each folder contains a `README.md` with tailored guidance, tips, and useful resources specific to the certification in question.  
 
