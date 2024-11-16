@@ -187,19 +187,29 @@ To do this, follow these steps:
 - **[AWS Skillsbuilder: Exam Prep Official Practice Question Set: AWS Certified Security - Specialty](https://explore.skillbuilder.aws/learn/course/15222/exam-prep-official-practice-question-set-aws-certified-security-specialty-scs-c02-english)**
 - **[AWS Skillsbuilder: Exam Prep Official Practice Exam: AWS Certified Security - Specialty](https://explore.skillbuilder.aws/learn/course/15719/exam-prep-official-practice-exam-aws-certified-security-specialty-scs-c02-english)**
 
-### Sources
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
-- **[AWS Skillsbuilder:]()**
+### Labs
+- **[AWS Skillsbuilder: Introduction to AWS Identity and Access Management (IAM)](https://explore.skillbuilder.aws/learn/course/880/introduction-to-aws-identity-and-access-management-iam)**
+- **[AWS Skillsbuilder: Zero Trust Architecture for Service-to-Service Workload](https://explore.skillbuilder.aws/learn/course/15502/zero-trust-architecture-for-service-to-service-workload)**
+- **[AWS Skillsbuilder: Controlling the Network](https://explore.skillbuilder.aws/learn/course/13606/controlling-the-network)**
+- **[AWS Skillsbuilder: Troubleshooting - IAM Access Issues](https://explore.skillbuilder.aws/learn/course/16281/lab-troubleshooting-iam-access-issues)**
+- **[AWS Skillsbuilder: Troubleshooting IAM Access Issues (Assessment Version)](https://explore.skillbuilder.aws/learn/course/19397/lab-troubleshooting-iam-access-issues-assessment-version)**
+- **[AWS Skillsbuilder: Secure Your Account During an Active Event](https://explore.skillbuilder.aws/learn/course/14742/secure-your-account-during-an-active-event)**
+- **[AWS Skillsbuilder: AWS Security Traffic Monitoring and Packet Analysis](https://explore.skillbuilder.aws/learn/course/15900/aws-security-traffic-monitoring-and-packet-analysis)**
+- **[AWS Skillsbuilder: Performing a Basic Audit of your AWS Environmen](https://explore.skillbuilder.aws/learn/course/885/performing-a-basic-audit-of-your-aws-environment)**
+- **[AWS Skillsbuilder: Threat Hunting with AWS Network Firewall Deployment](https://explore.skillbuilder.aws/learn/course/15954/threat-hunting-with-aws-network-firewall-deployment)**
+- **[AWS Skillsbuilder: Auditing Your Security with AWS Trusted Advisor](https://explore.skillbuilder.aws/learn/course/887/auditing-your-security-with-aws-trusted-advisor)**
+- **[AWS Skillsbuilder: My Bucket, My Rules](https://explore.skillbuilder.aws/learn/course/14743/my-bucket-my-rules)**
+- **[AWS Skillsbuilder: Filtering and blocking web incursions with AWS WAF](https://explore.skillbuilder.aws/learn/course/11363/filtering-and-blocking-web-incursions-with-aws-waf)**
+- **[AWS Skillsbuilder: Scale Your Security Vulnerability Testing with Amazon Inspector](https://explore.skillbuilder.aws/learn/course/7686/scale-your-security-vulnerability-testing-with-amazon-inspector)**
+- **[AWS Skillsbuilder: Securing the Endpoint](https://explore.skillbuilder.aws/learn/course/14176/securing-the-endpoint)**
+- **[AWS Skillsbuilder: Using Data Encryption in AWS](https://explore.skillbuilder.aws/learn/course/11357/using-data-encryption-in-aws)**
+- **[AWS Skillsbuilder: Security Monitoring](https://explore.skillbuilder.aws/learn/course/13814/security-monitoring)**
+- **[AWS Skillsbuilder: Role Assumption Challenge](https://explore.skillbuilder.aws/learn/course/1133/role-assumption-challenge)**
+- **[AWS Skillsbuilder: Introduction to AWS Key Management Service](https://explore.skillbuilder.aws/learn/course/897/introduction-to-aws-key-management-service)**
+- **A Cloud Guru: AWS Certified Security – Specialty (SCS-C02) (Included in the course)**
 
+### Sources
+*None*
 
 ### Time Spent
 *60 hours*
