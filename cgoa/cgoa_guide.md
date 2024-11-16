@@ -3,7 +3,7 @@
 ## My Thoughts on the Exam
 
 ### Why I Took the Exam
-I took the exam to solidify my knowledge about GitOps principles. Here are the key takeaways from my learning:
+I took the exam to solidify my knowledge about GitOps principles. Here are the key takeaways from what I learned:
 
 - DevOps and GitOps are not interchangeable.
 - GitOps is a subset derived from DevOps.
