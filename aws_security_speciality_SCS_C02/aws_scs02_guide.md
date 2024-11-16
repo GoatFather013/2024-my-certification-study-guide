@@ -1,10 +1,48 @@
-# AWS Security Competencies and Domains
-
+# AWS Security Speciality Guide intro
 This README outlines the key domains and competencies for AWS security practices, following Version 1.1 SCS-C02 specifications. The guide provides an overview of required skills and knowledge across different security areas, focusing on edge security, network security, compute security, identity and access management, data protection, and governance.
+
+## My Thoughts on the Exam
+
+### Why I Took the Exam
+For years I've worked with AWS Services and I wanted to take elevate my knowledge to the next level.
+This is what I learend in preperation for the exam:
+
+- Config, Guardduty, Security Hub and Eventbridge are awesome.
+- Besure to automate everything.
+- The Well Architechted Framework and the Shared Responebility Model are key.
+- Kinesis has a lot more functions then I previously thought.
+- Everything must be encrypted.
+- AWS is going through a lot of annoying name changes.
+- If you need to block something do it at the orginzational level.
+- Don't confuses resource, idenity, boundary, session and scp's with each other. 
+
+### About the Exam
+The exam was a easier than I had imagined. The exam is 180 minutes long, 210 if you request ESL, and exists out of 65 multiple-gamble questions.
+Keep in mind that 15 questions are not used for your overal score. You don't know what questions that will be but they are essential worthless. (Annoying, I know)
+
+Before you take the exam I would suggest to increase your reading skills. Many questions are big scenario's with 4 - 6 anwser options.
+So being able to read quickly and able to interprate the information will give you an edge during the exam. 
+
+To pass the exam you need to score atleast 750 out of a 1000 points. 
+I spend around 100 minutes in the exam and ended up with 862 points. 
+
+### ESL +30
+If english is your second langau you can request the "ESL +30".
+This gives you extension of 30 minutes. (Extra time, whoopy)
+
+To do this, do the follwing:
+
+- Sign in to aws.training/Certification. 
+- Select the Go to your Account button. 
+- Select the Request Exam Accommodations button, followed by Request Accommodation.
+- Using the Accommodation Type dropdown, select ESL +30 MINUTES.
+- Select the Create button.
 
 ---
 
-## Table of Contents
+## AWS Security Competencies and Domains
+
+### Table of Contents
 
 1. **Edge Security Strategies**
 2. **Network Security Controls**
@@ -15,9 +53,9 @@ This README outlines the key domains and competencies for AWS security practices
 
 ---
 
-## 1. Edge Security Strategies
+### 1. Edge Security Strategies
 
-### Skills:
+#### Skills:
 - Define edge security strategies for applications, including public websites, serverless apps, and mobile backends.
 - Choose edge services based on threat models (e.g., OWASP Top 10, DDoS attacks).
 - Implement defense-in-depth strategies by layering services (e.g., CloudFront, AWS WAF).
@@ -26,110 +64,110 @@ This README outlines the key domains and competencies for AWS security practices
 
 ---
 
-## 2. Network Security Controls
+### 2. Network Security Controls
 
-### Knowledge:
+#### Knowledge:
 - Understand VPC security mechanisms (security groups, network ACLs, Network Firewall).
 - Implement secure Inter-VPC and on-premises connectivity (e.g., Transit Gateway, AWS Direct Connect).
 - Leverage telemetry sources (e.g., VPC Flow Logs, Traffic Mirroring).
 
-### Skills:
+#### Skills:
 - Implement network segmentation and control traffic using security groups and ACLs.
 - Ensure data remains off the public internet (e.g., using Transit Gateway).
 - Adjust network configurations based on evolving security requirements.
 
 ---
 
-## 3. Compute Security
+### 3. Compute Security
 
-### Knowledge:
+#### Knowledge:
 - Provision and maintain EC2 instances (patching, snapshots, AMIs).
 - Manage IAM roles for instances and services.
 - Utilize services for vulnerability scanning (e.g., Amazon Inspector).
 
-### Skills:
+#### Skills:
 - Harden EC2 AMIs, scan instances for vulnerabilities, and secure credentials.
 - Patch compute workloads, activate host-based security, and analyze findings.
 
 ---
 
-## 4. Identity and Access Management (IAM)
+### 4. Identity and Access Management (IAM)
 
-### Task Statement 4.1: **Authentication**
+#### Task Statement 4.1: **Authentication**
 
-#### Knowledge:
+##### Knowledge:
 - Methods for identity creation (e.g., federated identities, IAM Identity Center, Amazon Cognito).
 - Credentialing mechanisms (e.g., temporary credentials, multi-factor authentication).
 
-#### Skills:
+##### Skills:
 - Implement MFA, manage temporary credentials, and troubleshoot authentication issues.
 
-### Task Statement 4.2: **Authorization**
+#### Task Statement 4.2: **Authorization**
 
-#### Knowledge:
+##### Knowledge:
 - Different IAM policies (managed, inline, resource-based, session control).
 - Policy components (e.g., Principal, Action, Resource, Condition).
 
-#### Skills:
+##### Skills:
 - Construct and implement access control models (ABAC, RBAC).
 - Apply least privilege principles and separate duties.
 
 ---
 
-## 5. Data Protection
+### 5. Data Protection
 
-### Task Statement 5.1: **Data in Transit**
+#### Task Statement 5.1: **Data in Transit**
 
-#### Knowledge:
+##### Knowledge:
 - TLS, VPN, secure remote access (e.g., SSH, Session Manager).
 - TLS certificate application across AWS resources.
 
-#### Skills:
+##### Skills:
 - Design encrypted connectivity and require encryption for AWS services.
 
-### Task Statement 5.2: **Data at Rest**
+#### Task Statement 5.2: **Data at Rest**
 
-#### Knowledge:
+##### Knowledge:
 - Select encryption techniques (symmetric, asymmetric).
 - Design policies to control access and protect data integrity.
 
-#### Skills:
+##### Skills:
 - Prevent unauthorized access, configure encryption at rest, and use integrity-protection mechanisms.
 
-### Task Statement 5.3: **Data Lifecycle Management**
+#### Task Statement 5.3: **Data Lifecycle Management**
 
-#### Knowledge:
+##### Knowledge:
 - Lifecycle policies and retention standards.
 
-#### Skills:
+##### Skills:
 - Automate lifecycle management for data retention and backup.
 
 ---
 
-## 6. Management and Security Governance
+### 6. Management and Security Governance
 
-### Task Statement 6.1: **AWS Accounts Management**
+#### Task Statement 6.1: **AWS Accounts Management**
 
-#### Knowledge:
+##### Knowledge:
 - Multi-account strategies, policy-defined guardrails, root account best practices.
 
-#### Skills:
+##### Skills:
 - Deploy AWS Organizations, implement SCPs, secure root credentials, aggregate security findings.
 
-### Task Statement 6.2: **Deployment Strategy**
+#### Task Statement 6.2: **Deployment Strategy**
 
-#### Knowledge:
+##### Knowledge:
 - Infrastructure as Code best practices, centralized deployment, and resource tagging.
 
-#### Skills:
+##### Skills:
 - Securely deploy resources with CloudFormation, enforce tagging, and manage Firewall policies.
 
-### Task Statement 6.3: **Compliance**
+#### Task Statement 6.3: **Compliance**
 
-#### Knowledge:
+##### Knowledge:
 - Data classification and audit practices.
 
-#### Skills:
+##### Skills:
 - Use AWS Config rules to monitor compliance and manage sensitive data.
 
 ---
