@@ -52,6 +52,7 @@ The repository contains various subfolders with information and resources for sp
   - **[Identity and Access Management (IAM)](WIP/Coming Soon)**
     - **[IAM Policy Access Analyzer](./aws_security_speciality_SCS_C02/iam/iam_policy_acccess_analyzer_guide.md)**
   - **[Data Protection](WIP/Coming Soon)**
+    - **[KMS Vs CloudHSM](./aws_security_speciality_SCS_C02/encryption/kms_hsm_guide.md)**
   - **[Management and Security Governance](WIP/Coming Soon)**
 
 Each folder contains a `README.md` with tailored guidance, tips, and useful resources specific to the certification in question.  
