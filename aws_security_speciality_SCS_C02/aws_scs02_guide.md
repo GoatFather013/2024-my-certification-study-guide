@@ -4,39 +4,42 @@ This README outlines the key domains and competencies for AWS security practices
 ## My Thoughts on the Exam
 
 ### Why I Took the Exam
-For years I've worked with AWS Services and I wanted to take elevate my knowledge to the next level.
-This is what I learend in preperation for the exam:
 
-- Config, Guardduty, Security Hub and Eventbridge are awesome.
-- Besure to automate everything.
-- The Well Architechted Framework and the Shared Responebility Model are key.
-- Kinesis has a lot more functions then I previously thought.
+For years, I've worked with AWS services, and I wanted to elevate my knowledge to the next level.  
+Here is what I learned in preparation for the exam:
+
+- Config, GuardDuty, Security Hub, and EventBridge are awesome.
+- Be sure to automate everything.
+- The Well-Architected Framework and the Shared Responsibility Model are key.
+- Kinesis has a lot more functions than I previously thought.
 - Everything must be encrypted.
 - AWS is going through a lot of annoying name changes.
-- If you need to block something do it at the orginzational level.
-- Don't confuses resource, idenity, boundary, session and scp's with each other. 
+- If you need to block something, do it at the organizational level.
+- Don't confuse resources, identities, boundaries, sessions, and SCPs with each other.
 
 ### About the Exam
-The exam was a easier than I had imagined. The exam is 180 minutes long, 210 if you request ESL, and exists out of 65 multiple-gamble questions.
-Keep in mind that 15 questions are not used for your overal score. You don't know what questions that will be but they are essential worthless. (Annoying, I know)
 
-Before you take the exam I would suggest to increase your reading skills. Many questions are big scenario's with 4 - 6 anwser options.
-So being able to read quickly and able to interprate the information will give you an edge during the exam. 
+The exam was easier than I had imagined. It is 180 minutes long, or 210 if you request ESL, and consists of 65 multiple-gamble questions.  
+Keep in mind that 15 questions are not used for your overall score. You won't know which questions these are, but they are essentially worthless. (Annoying, I know.)
 
-To pass the exam you need to score atleast 750 out of a 1000 points. 
-I spend around 100 minutes in the exam and ended up with 862 points. 
+Before you take the exam, I suggest improving your reading skills. Many questions are big scenarios with 4–6 answer options.  
+Being able to read quickly and interpret the information will give you an edge during the exam.
+
+To pass the exam, you need to score at least 750 out of 1000 points.  
+I spent around 100 minutes on the exam and ended up with 862 points.
 
 ### ESL +30
-If english is your second langau you can request the "ESL +30".
-This gives you extension of 30 minutes. (Extra time, whoopy)
 
-To do this, do the follwing:
+If English is your second language, you can request the "ESL +30."  
+This gives you an extension of 30 minutes. (Extra time, whoopee!)
 
-- Sign in to aws.training/Certification. 
-- Select the Go to your Account button. 
-- Select the Request Exam Accommodations button, followed by Request Accommodation.
-- Using the Accommodation Type dropdown, select ESL +30 MINUTES.
-- Select the Create button.
+To do this, follow these steps:
+
+1. Sign in to [AWS Training and Certification](https://aws.training/Certification).
+2. Select the **Go to your Account** button.
+3. Select the **Request Exam Accommodations** button, followed by **Request Accommodation**.
+4. Using the **Accommodation Type** dropdown, select **ESL +30 MINUTES**.
+5. Select the **Create** button.
 
 ---
 
