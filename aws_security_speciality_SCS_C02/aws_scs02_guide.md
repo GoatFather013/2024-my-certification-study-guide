@@ -183,9 +183,9 @@ To do this, follow these steps:
 
 ### Practice Exams
 - **[Udemy: Practice Exams | AWS Certified Security – Specialty](https://www.udemy.com/course/practice-exams-aws-certified-security-specialty)**
-- **A Cloud Guru: AWS Certified Security – Specialty (SCS-C02) (Included in the course)**
 - **[AWS Skillsbuilder: Exam Prep Official Practice Question Set: AWS Certified Security - Specialty](https://explore.skillbuilder.aws/learn/course/15222/exam-prep-official-practice-question-set-aws-certified-security-specialty-scs-c02-english)**
 - **[AWS Skillsbuilder: Exam Prep Official Practice Exam: AWS Certified Security - Specialty](https://explore.skillbuilder.aws/learn/course/15719/exam-prep-official-practice-exam-aws-certified-security-specialty-scs-c02-english)**
+- **A Cloud Guru: AWS Certified Security – Specialty (SCS-C02) (Included in the course)**
 
 ### Labs
 - **[AWS Skillsbuilder: Introduction to AWS Identity and Access Management (IAM)](https://explore.skillbuilder.aws/learn/course/880/introduction-to-aws-identity-and-access-management-iam)**
