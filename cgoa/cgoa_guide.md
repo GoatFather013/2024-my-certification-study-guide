@@ -123,9 +123,9 @@ The integration of GitOps tooling with other systems for notifications, monitori
 ## Additional Resources
 
 ### Courses
-- [Git for Beginners - KodeKloud](https://learn.kodekloud.com/user/courses/git-for-beginners)
-- [GitOps with ArgoCD - KodeKloud](https://learn.kodekloud.com/user/courses/gitops-with-argocd)
-- [Introduction to GitOps (LFS169)](https://trainingportal.linuxfoundation.org/courses/introduction-to-gitops-lfs169)
+- [Kodekloud: Git for Beginners](https://learn.kodekloud.com/user/courses/git-for-beginners)
+- [KodeKloud: GitOps with ArgoCD ](https://learn.kodekloud.com/user/courses/gitops-with-argocd)
+- [Linux Foundation: Introduction to GitOps (LFS169)](https://trainingportal.linuxfoundation.org/courses/introduction-to-gitops-lfs169)
 
 ### Practice Exams
 *None Found*
