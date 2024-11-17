@@ -22,11 +22,19 @@ Here is what I learned in preparation for the exam:
 The exam was easier than I had imagined. It is 180 minutes long, or 210 if you request ESL, and consists of 65 multiple-gamble questions.  
 Keep in mind that 15 questions are not used for your overall score. You won't know which questions these are, but they are essentially worthless. (Annoying, I know.)
 
+To pass the exam, you need to score at least 750 out of 1000 points.  
+I spent around 100 minutes on the exam and ended up with 862 points.
+
+### Exam tips:
 Before you take the exam, I suggest improving your reading skills. Many questions are big scenarios with 4–6 answer options.  
 Being able to read quickly and interpret the information will give you an edge during the exam.
 
-To pass the exam, you need to score at least 750 out of 1000 points.  
-I spent around 100 minutes on the exam and ended up with 862 points.
+Be sure to carefully read the exam questions and look for the operator words.  
+There can be trick questions like:
+
+*You need to be able to use API tokens in a dynamic, secure, and COST EFFECTIVE way:*  
+The first thing you should think is: *"Hey, that sounds like Secrets Manager."*  
+But Secrets Manager costs money, so SSM Secure Parameter could be the correct answer to the question.
 
 ### ESL +30
 
