@@ -31,7 +31,7 @@ The repository contains various subfolders with information and resources for sp
 
 **Associate Level Certifications**
 - **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
-- **Kubernetes and Cloud Native Associate (WIP/Coming Soon)**
+- **[Kubernetes and Cloud Native Associate](./kcna/kcna_guide.md)**
 - **Kubernetes and Cloud Native Security Associate (WIP/Coming Soon)**
 - **[Prometheus Certified Associate](./pca/pca_guide.md)**
 - **[SUSE Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SUSE Certified Systetm Administrator 15 certification.
