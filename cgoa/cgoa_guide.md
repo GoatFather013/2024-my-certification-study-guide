@@ -139,5 +139,3 @@ The integration of GitOps tooling with other systems for notifications, monitori
 
 ### Time Spent
 *4 - 8 hours*
-
----
