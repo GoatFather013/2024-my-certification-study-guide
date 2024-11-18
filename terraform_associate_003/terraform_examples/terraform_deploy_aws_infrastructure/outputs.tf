@@ -1,3 +1,5 @@
+# The output block is used to define the output values of the modules used in the main configuration file.
+
 output "securitygroups" { # output block for Security Groups module
   value = module.securitygroups # value of the output
 }
