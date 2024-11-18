@@ -1,4 +1,4 @@
-# This file contains the variables that are used in the main.tf file
+# This file contains the variables that are used in the vpc.tf file
 
 variable "region" { # Variable to store the region in which the infrastructure is to be deployed
   description = "The AWS region to deploy to" # Description of the variable
