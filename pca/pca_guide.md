@@ -72,6 +72,7 @@ If you follow the course and use the practice exams noted in this guide, you sho
 
 ### PCA Practice Exams
 - [Udemy: Prometheus Certified Associate Practice Exams](https://www.udemy.com/course/prometheus-certified-associate-practice-exams)
+- **KodeKloud: Prometheus Certified Associate (PCA) Course (Included in the course)**
 
 ### Sources
 *None Found*
