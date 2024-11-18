@@ -60,15 +60,20 @@
 
 ---
 
-### Recommended Resources
+## Additional Resources
 
-- **Courses**:
-  - [Udemy: Administer Linux with YaST & Use Help Resources](https://www.udemy.com/course/suse-administer-linux-with-yast-use-help-resources)
+### Courses
+- [A Cloud Guru: Becoming Familiar with SUSE Linux Enterprise](https://learn.acloud.guru/course/387f3e9a-112e-474d-92c4-57148a293750)
+- [A Cloud Guru: Configuring SUSE Linux Enterprise](https://learn.acloud.guru/course/caca25dd-24c5-4dbc-9833-50c5f0d4c3c3)
+- [A Cloud Guru: Managing SUSE Linux Enterprise](https://learn.acloud.guru/course/ecc3903d-02c3-4b78-a9f9-c180c545d578)
+- [A Cloud Guru: SUSE Linux Enterprise Admin Review and Exam Prep](https://learn.acloud.guru/course/10bd7c49-a743-4acc-81d3-d8eefd53eeac)
+- [Udemy: Administer Linux with YaST & Use Help Resources](https://www.udemy.com/course/suse-administer-linux-with-yast-use-help-resources)
 
-- **Practice Exams**:
-  - Include links to practice exams as they become available.
+### Practice Exams
+*None Found*
 
-- **Time Spend**:
-  - Record your time spent studying each topic for effective tracking.
+### Sources
+*None Found*
 
----
+### Time Spent
+*8 - 12 hours*
