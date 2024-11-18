@@ -37,6 +37,7 @@ The repository contains various subfolders with information and resources for sp
 - **[SUSE Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SUSE Certified System Administrator 15 certification.
 - **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
   - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
+  - **[Terraform deployment example](./terraform_associate_003/terraform_examples/terraform_deploy_aws_infrastructure/terraform_example_documentation.md)**
 
 **Professional Level Certifications**
 - **Certified Kubernetes Administrator (WIP/Coming Soon)**
