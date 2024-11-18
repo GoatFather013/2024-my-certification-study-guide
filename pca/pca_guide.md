@@ -3,62 +3,65 @@
 ## My Thoughts on the Exam
 
 ### Why I Took the Exam
-I took the exam to expaned my knowlegde on Prometheus and get certificied for it. Here are the key takeaways from what I learned:
+I took the exam to expand my knowledge of Prometheus and obtain certification for it. Here are the key takeaways from what I learned:
 
-- Prometheus uses a Pull based metric scraping method.
-- It's predomtly for metric based monitoring.
-- The query langue for Prometheus is called PromQL (Prometheus Query Langue).
-- . 
+- Prometheus uses a pull-based metric scraping method.
+- It is primarily designed for metric-based monitoring.
+- The query language for Prometheus is called PromQL (Prometheus Query Language).
 
 ### About the Exam
-The exam itself is "easy" if you have a strong understanding of GitOps principles. Most of my study time was spent finding reliable GitOps resources and reading documentation on various GitOps engines, such as ArgoCD and Flux.
+The exam is 90 minutes long and consists of 60 multiple-gamble questions. You need to score at least 75 out of 100 points to pass. I completed it in 25 minutes and scored 83 points.
 
-The exam is 90 minutes long and consists of 60 multiple-gamble questions. You need to score at least 75 out of 100 points to pass. I completed it in 30 minutes and scored 85 points.
+If you follow the course and use the practice exams noted in this guide, you should have no issues acing the exam.
 
 ### Book your exam Here
-- [Certified GitOps Associate (CGOA)](https://trainingportal.linuxfoundation.org/courses/certified-gitops-associate-cgoa)
+- [Prometheus Certified Associate (PCA)](https://training.linuxfoundation.org/certification/prometheus-certified-associate/)
 
 ***The exam costs 250 USD but LF, CNCF have many actions that can reduce the price.***
 ***If you are not in a hurry to achieve this certification then I would wait on options to reduce the price.***
 
+---
 
 ## Exam Objectives
 
 ### Observability Concepts (18%)
-- Metrics
-- Understand logs and events
-- Tracing and Spans
-- Push vs Pull
-- Service Discovery
-- Basics of SLOs, SLAs, and SLIs
+- **Metrics**: Quantitative data points that describe the performance, behavior, or health of a system (e.g., CPU usage, memory consumption).
+- **Understand logs and events**: Logs provide a detailed record of system activities; events capture state changes or specific occurrences in the system.
+- **Tracing and Spans**: Tracing tracks the flow of requests through distributed systems, with spans representing individual operations within a trace.
+- **Push vs Pull**: Prometheus primarily pulls metrics from targets, but PushGateway allows push mechanisms for ephemeral jobs.
+- **Service Discovery**: Automatically discovers and monitors dynamic infrastructure like cloud instances, containers, or VMs.
+- **Basics of SLOs, SLAs, and SLIs**: 
+  - **SLI** (Service Level Indicator): Quantifiable measure of service quality (e.g., response time).
+  - **SLO** (Service Level Objective): Target value or range for an SLI.
+  - **SLA** (Service Level Agreement): Formal contract with consequences for failing to meet SLOs.
 
 ### Prometheus Fundamentals (20%)
-- System Architecture
-- Configuration and Scraping
-- Understanding Prometheus Limitations
-- Data Model and Labels
-- Exposition Format
+- **System Architecture**: Prometheus server components include TSDB (storage), HTTP API, and Alertmanager, designed for high availability and scalability.
+- **Configuration and Scraping**: Defines how Prometheus collects metrics from targets using `prometheus.yml`.
+- **Understanding Prometheus Limitations**: Highlights areas such as lack of native long-term storage or advanced visualization.
+- **Data Model and Labels**: Prometheus uses a time-series model with labels (key-value pairs) for identifying and grouping metrics.
+- **Exposition Format**: Defines the text-based format for exposing metrics in a Prometheus-readable format.
 
 ### PromQL (28%)
-- Selecting Data
-- Rates and Derivatives
-- Aggregating over time
-- Aggregating over dimensions
-- Binary operators
-- Histograms
-- Timestamp Metrics
+- **Selecting Data**: Use expressions to query specific time-series data (e.g., `http_requests_total`).
+- **Rates and Derivatives**: Calculate changes over time, like `rate(http_requests_total[5m])`.
+- **Aggregating over time**: Summarize data over a time range (e.g., `avg_over_time()`).
+- **Aggregating over dimensions**: Group data by specific labels (e.g., `sum by (job)()`).
+- **Binary operators**: Perform mathematical operations between time series (e.g., `metric1 + metric2`).
+- **Histograms**: Analyze distributions using histogram buckets and `_sum`/`_count` metrics.
+- **Timestamp Metrics**: Extract raw timestamps for advanced time-based calculations.
 
 ### Instrumentation and Exporters (16%)
-- Client Libraries
-- Instrumentation
-- Exporters
-- Structuring and naming metrics
+- **Client Libraries**: Language-specific libraries for instrumenting custom applications (e.g., Go, Python).
+- **Instrumentation**: Adding Prometheus metrics to application code to monitor internal processes.
+- **Exporters**: Bridge external systems to Prometheus by exposing their metrics in Prometheus-compatible formats (e.g., Node Exporter).
+- **Structuring and naming metrics**: Follow Prometheus conventions for clear, descriptive metric names (e.g., `namespace_subsystem_metric`).
 
 ### Alerting & Dashboarding (18%)
-- Dashboarding basics
-- Configuring Alerting rules
-- Understand and Use Alertmanager
-- Alerting basics (when, what, and why)
+- **Dashboarding basics**: Visualize metrics in tools like Grafana for monitoring trends and system health.
+- **Configuring Alerting rules**: Set up conditions in Prometheus to trigger alerts when thresholds are breached.
+- **Understand and Use Alertmanager**: Route, group, and silence alerts generated by Prometheus.
+- **Alerting basics (when, what, and why)**: Establish meaningful alerts to inform critical action without overwhelming noise.
 
 ---
 
@@ -70,7 +73,8 @@ The exam is 90 minutes long and consists of 60 multiple-gamble questions. You ne
 ### PCA Practice Exams
 - [Udemy: Prometheus Certified Associate Practice Exams](https://www.udemy.com/course/prometheus-certified-associate-practice-exams)
 
----
+### Sources
+*None Found*
 
-## Time Tracking
+### Time Spent
 *8 - 16 hours*
