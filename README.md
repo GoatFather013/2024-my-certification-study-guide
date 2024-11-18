@@ -33,7 +33,7 @@ The repository contains various subfolders with information and resources for sp
 - **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
 - **Kubernetes and Cloud Native Associate (WIP/Coming Soon)**
 - **Kubernetes and Cloud Native Security Associate (WIP/Coming Soon)**
-- **Prometheus Certified Associate (WIP/Coming Soon)**
+- **[Prometheus Certified Associate](./pca/pca_guide.md)**
 - **[SUSE Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SUSE Certified Systetm Administrator 15 certification.
 - **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
   - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
