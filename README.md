@@ -31,10 +31,10 @@ The repository contains various subfolders with information and resources for sp
 
 **Associate Level Certifications**
 - **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
-- **[Kubernetes and Cloud Native Associate](./kcna/kcna_guide.md)**
-- **[Kubernetes and Cloud Native Security Associate](./kcsa/kcsa_guide.md)**
-- **[Prometheus Certified Associate](./pca/pca_guide.md)**
-- **[SUSE Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SUSE Certified Systetm Administrator 15 certification.
+- **[Kubernetes and Cloud Native Associate](./kcna/kcna_guide.md)** Guide for the Kubernetes and Cloud Native Associate certification.
+- **[Kubernetes and Cloud Native Security Associate](./kcsa/kcsa_guide.md)** Guide for the Kubernetes and Cloud Security Associate certification.
+- **[Prometheus Certified Associate](./pca/pca_guide.md)** Guide for the Prometheus Certified Associate certification.
+- **[SUSE Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SUSE Certified System Administrator 15 certification.
 - **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
   - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
 
@@ -45,7 +45,7 @@ The repository contains various subfolders with information and resources for sp
 **Speciality Level Certifications**
 - **Certified Kubernetes Security Specialist (WIP/Coming Soon)**
 - **[AWS Security Specialty](./aws_security_speciality_SCS_C02/aws_scs02_guide.md)**
-  - **[AWS Security PDF Guide](./aws_security_speciality_SCS_C02/AWS-Certified-Security-Specialty_Exam-Guide.pdf)**
+  - **[AWS Security Exam Syllabus](./aws_security_speciality_SCS_C02/AWS-Certified-Security-Specialty_Exam-Guide.pdf)** The exam syllabus for AWS Security Specialty.
   - **[Edge Security Strategies](WIP/Coming Soon)**
   - **[Network Security Controls](WIP/Coming Soon)**
   - **[Compute Security](WIP/Coming Soon)**
