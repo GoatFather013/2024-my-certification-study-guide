@@ -60,9 +60,9 @@ The exam is 90 minutes long and consists of 60 multiple-gamble questions. You ne
 ---
 
 ## Courses
-- **[Kodekloud: Kubernetes for the Absolute Beginners - Hands-On Tutorial](https://learn.kodekloud.com/user/courses/kubernetes-for-the-absolute-beginners-hands-on-tutorial)**
-- **[Kodekloud: Kubernetes and Cloud Native Associate (KCNA) Course](https://learn.kodekloud.com/user/courses/kubernetes-and-cloud-native-associate-kcna)**
-- **[Udemy: Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams](https://www.udemy.com/course/dive-into-cloud-native-containers-kubernetes-and-the-kcna)**
+- [Kodekloud: Kubernetes for the Absolute Beginners - Hands-On Tutorial](https://learn.kodekloud.com/user/courses/kubernetes-for-the-absolute-beginners-hands-on-tutorial)
+- [Kodekloud: Kubernetes and Cloud Native Associate (KCNA) Course](https://learn.kodekloud.com/user/courses/kubernetes-and-cloud-native-associate-kcna)
+- [Udemy: Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams](https://www.udemy.com/course/dive-into-cloud-native-containers-kubernetes-and-the-kcna)
 
 ## Practice Exams
 - **Kodekloud: Kubernetes and Cloud Native Associate (KCNA) Course. (Included in the course)**
