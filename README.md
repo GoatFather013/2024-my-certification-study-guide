@@ -57,4 +57,4 @@ The repository contains various subfolders with information and resources for sp
 
 Each folder contains a `README.md` with tailored guidance, tips, and useful resources specific to the certification in question.  
 
-Feel free to explore each folder and reach out if you have any questions or need further clarification on any topic! 
+Feel free to explore each folder and reach out if you have any questions or need further clarification on any topic!
