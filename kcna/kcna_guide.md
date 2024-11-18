@@ -1,3 +1,27 @@
+# Kubernetes and Cloud Native Associate (KCNA) Guide
+
+## My Thoughts on the Exam
+
+### Why I Took the Exam
+I took the exam to because I needed a starting point for my Kubestronaut title.
+
+### About the Exam
+The exam is very broad and is gonna touch on many topics like:
+- Kubernetes itself
+- Service Meshes
+- Docker
+- Containers in general
+- Deploments
+- Application Management
+
+The exam is 90 minutes long and consists of 60 multiple-gamble questions. You need to score at least 75 out of 100 points to pass. I completed it in 25 minutes and scored 75 points.
+
+### Book your exam Here
+- [Kubernetes and Cloud Native Associate (KCNA)](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
+
+***The exam costs 250 USD but LF, CNCF have many actions that can reduce the price.***
+
+---
 
 ## Exam Objectives
 
@@ -36,11 +60,13 @@
 ---
 
 ## Courses
-- [Kodekloud: Kubernetes and Cloud Native Associate (KCNA) Course](https://learn.kodekloud.com/user/courses/kubernetes-and-cloud-native-associate-kcna)
-- [Kodekloud: Kubernetes for the Absolute Beginners - Hands-On Tutorial](https://learn.kodekloud.com/user/courses/kubernetes-for-the-absolute-beginners-hands-on-tutorial)
+- **[Kodekloud: Kubernetes for the Absolute Beginners - Hands-On Tutorial](https://learn.kodekloud.com/user/courses/kubernetes-for-the-absolute-beginners-hands-on-tutorial)**
+- **[Kodekloud: Kubernetes and Cloud Native Associate (KCNA) Course](https://learn.kodekloud.com/user/courses/kubernetes-and-cloud-native-associate-kcna)**
+- **[Udemy: Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams](https://www.udemy.com/course/dive-into-cloud-native-containers-kubernetes-and-the-kcna)**
 
 ## Practice Exams
-*TBA*
+- **Kodekloud: Kubernetes and Cloud Native Associate (KCNA) Course. (Included in the course)**
+- **Udemy: Kubernetes Certified (KCNA) + Hands On Labs + Practice Exams. (Included in the course)**
 
 ## Time Spend
-*(Track the time spent on each topic)*
+*8 - 12 hours*
