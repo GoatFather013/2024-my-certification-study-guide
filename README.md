@@ -58,12 +58,12 @@ The repository contains various subfolders with information and resources for sp
   - **[PCEP Exam Syllabus](./pcep-30-02/pcep-30-02-exam-syllabus.pdf)** The exam syllabus for PCEP.
 
 **Associate Level Certifications**
-- **[Certified GitOps Associate](./cgoa/cgoa_guide.md):** Guide for Certified GitOps Associate (CGOA) certification.
+- **[Certified GitOps Associate](./cgoa/cgoa_guide.md)** Guide for Certified GitOps Associate (CGOA) certification.
 - **[Kubernetes and Cloud Native Associate](./kcna/kcna_guide.md)** Guide for the Kubernetes and Cloud Native Associate certification.
 - **[Kubernetes and Cloud Native Security Associate](./kcsa/kcsa_guide.md)** Guide for the Kubernetes and Cloud Security Associate certification.
 - **[Prometheus Certified Associate](./pca/pca_guide.md)** Guide for the Prometheus Certified Associate certification.
 - **[SUSE Certified System Administrator 15](./sles_sca15/sles_sca15_guide.md)** Guide for the SUSE Certified System Administrator 15 certification.
-- **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md):** Guide for the Terraform Associate (TA-003)certification.
+- **[Terraform Associate 003](./terraform_associate_003/terraform_guide.md)** Guide for the Terraform Associate (TA-003)certification.
   - **[Terraform Cheat Sheet](./terraform_associate_003/terraform_guide_cmd_cheatsheet.md):** Overview of Terraform commands and explanations.
   - **[Terraform deployment example](./terraform_associate_003/terraform_examples/terraform_deploy_aws_infrastructure/terraform_example_documentation.md)**
 
