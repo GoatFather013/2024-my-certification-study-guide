@@ -35,7 +35,7 @@ To assist friends and colleagues in passing the certifications I’ve completed 
 ## 3. Certifications
 **Certification achievement dates**
 - **[Terraform: Achieved on 25-03-2024](https://www.credly.com/badges/0a3ef44f-34ec-4595-9a4a-76d3ea145581/public_url)**
-- **[Kubernetes and Cloud Native Associate: Achieved on 02-08-2024](https://www.credly.com/badges/24faeb5f-1bdf-400a-9403-30d9ebaeb0e6/public_url)**
+- **[Kubernetes and Cloud Security Associate: Achieved on 02-08-2024](https://www.credly.com/badges/24faeb5f-1bdf-400a-9403-30d9ebaeb0e6/public_url)**
 - **[Certified Kubernetes Administrator: Achieved on 02-08-2024](https://www.credly.com/badges/10c58c4c-8600-4df0-83fb-b9a0885cd2bf/public_url)**
 - **[Kubernetes and Cloud Native Security Associate: Achieved on 08-08-2024](https://www.credly.com/badges/d5b8dec0-b792-4b66-ae0d-9f586ff0131c/public_url)**
 - **[Certified Kubernetes Application Developer: Achieved on 08-08-2024](https://www.credly.com/badges/a3149762-2798-45f2-a806-828e6923d63b/public_url)**
