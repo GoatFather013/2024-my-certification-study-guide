@@ -12,6 +12,7 @@ Here's what I've learned in preparation for the exam:
 - Learn by doing.
 - Build your own Kubernetes cluster "The Hard Way."
 - Learn VIM!!
+- Learn JSON Path queries.
 
 ### About the Exam
 The exam is performance-based, meaning you will need to execute tasks in a lab environment. That's why you need to be comfortable executing Kubernetes commands.
@@ -74,6 +75,7 @@ I completed the exam in 80 minutes and scored a comfortable 98%.
 ### Courses
 - **[Udemy: Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests)**
 - **[KodeKloud: CKA Certification Course - Certified Kubernetes Administrator](https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator)**
+- **[KodeKloud: JSON Path Test - Free Course](https://learn.kodekloud.com/user/courses/json-path-test-free-course)**
 
 ### Practice Exams
 - **[Kodekloud: Udemy Labs - Certified Kubernetes Administrator with Practice Tests](https://learn.kodekloud.com/user/courses/udemy-labs-certified-kubernetes-administrator-with-practice-tests)**
