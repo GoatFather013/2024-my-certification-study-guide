@@ -68,7 +68,7 @@ The repository contains various subfolders with information and resources for sp
   - **[Terraform deployment example](./terraform_associate_003/terraform_examples/terraform_deploy_aws_infrastructure/terraform_example_documentation.md)**
 
 **Professional Level Certifications**
-- **Certified Kubernetes Administrator (WIP/Coming Soon)**
+- **[Certified Kubernetes Administrator](./cka/cka_guide.md)**
 - **Certified Kubernetes Application Developer (WIP/Coming Soon)**
 
 **Speciality Level Certifications**
