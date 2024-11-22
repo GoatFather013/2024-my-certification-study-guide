@@ -25,103 +25,103 @@ The exam is 90 minutes long and consists of 60 multiple-gamble questions. You ne
 
 ### Overview of Cloud Native Security (14%)
 - **The 4Cs of Cloud Native Security**: Code, Container, Cluster, and Cloud.
- - **[Securing Cloud-Native Applications](https://kubernetes.io/blog/2020/05/28/securing-cloud-native-applications/)** Discusses securing cloud-native environments, including code, containers, clusters, and cloud services.
- - **[Kubernetes Security Best Practices](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Best practices for securing Kubernetes clusters, workloads, and cloud-native environments.
+  - **[Securing Cloud-Native Applications](https://kubernetes.io/blog/2020/05/28/securing-cloud-native-applications/)** Discusses securing cloud-native environments, including code, containers, clusters, and cloud services.
+  - **[Kubernetes Security Best Practices](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Best practices for securing Kubernetes clusters, workloads, and cloud-native environments.
 - **Cloud Provider and Infrastructure Security**: Focus on securing cloud infrastructure services and ensuring secure configurations.
- - **[Cloud Provider Configurations](https://kubernetes.io/docs/concepts/architecture/cloud-controller/)** Explains how Kubernetes integrates with cloud providers and securing infrastructure services.
+  - **[Cloud Provider Configurations](https://kubernetes.io/docs/concepts/architecture/cloud-controller/)** Explains how Kubernetes integrates with cloud providers and securing infrastructure services.
 - **Controls and Frameworks**: Overview of security controls and compliance frameworks like CIS Benchmarks and NIST.
- - **[CIS Kubernetes Benchmark](https://kubernetes.io/docs/tasks/administer-cluster/cis-security-benchmark/)** Guide for applying CIS security benchmarks to Kubernetes clusters.
- - **[NIST SP 800-190: Application Container Security Guide](https://csrc.nist.gov/publications/detail/sp/800-190/final)** Frameworks for securing cloud-native apps, including Kubernetes.
+  - **[CIS Kubernetes Benchmark](https://kubernetes.io/docs/tasks/administer-cluster/cis-security-benchmark/)** Guide for applying CIS security benchmarks to Kubernetes clusters.
+  - **[NIST SP 800-190: Application Container Security Guide](https://csrc.nist.gov/publications/detail/sp/800-190/final)** Frameworks for securing cloud-native apps, including Kubernetes.
 - **Isolation Techniques**: Techniques like namespaces, sandboxing, and hypervisors to isolate workloads.
- - **[Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)** Using namespaces to isolate workloads.
- - **[Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)** Ensuring the isolation of workloads using Pod Security Policies.
+  - **[Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)** Using namespaces to isolate workloads.
+  - **[Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)** Ensuring the isolation of workloads using Pod Security Policies.
 - **Artifact Repository and Image Security**: Securing container image registries, scanning images for vulnerabilities, and ensuring signed images.
- - **[Container Image Security](https://kubernetes.io/docs/concepts/containers/images/)** Overview of securing container images and managing image registries.
- - **[Kubernetes Image Scanning](https://kubernetes.io/docs/tasks/configure-pod-container/container-image-security/)** How to scan and secure container images.
+  - **[Container Image Security](https://kubernetes.io/docs/concepts/containers/images/)** Overview of securing container images and managing image registries.
+  - **[Kubernetes Image Scanning](https://kubernetes.io/docs/tasks/configure-pod-container/container-image-security/)** How to scan and secure container images.
 - **Workload and Application Code Security**: Best practices for securing application code and runtime environments.
- - **[Securing Workloads](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Best practices for securing workloads and applications running in Kubernetes.
+  - **[Securing Workloads](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Best practices for securing workloads and applications running in Kubernetes.
 
 ### Kubernetes Cluster Component Security (22%)
 - **API Server**: Security configurations for the Kubernetes API server, including access control and authentication.
- - **[Kubernetes API Server Security](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)** Configurations and security measures for the Kubernetes API server.
+  - **[Kubernetes API Server Security](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)** Configurations and security measures for the Kubernetes API server.
 - **Controller Manager**: Securing cluster-level controllers and their associated configurations.
- - **[Kubernetes Controller Security](https://kubernetes.io/docs/tasks/administer-cluster/controller-manager/)** Best practices for securing Kubernetes controllers and their configurations.
+  - **[Kubernetes Controller Security](https://kubernetes.io/docs/tasks/administer-cluster/controller-manager/)** Best practices for securing Kubernetes controllers and their configurations.
 - **Scheduler**: Understanding potential risks and securing Kubernetes scheduler operations.
- - **[Kubernetes Scheduler Security](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduler/)** Overview of securing the Kubernetes scheduler.
+  - **[Kubernetes Scheduler Security](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduler/)** Overview of securing the Kubernetes scheduler.
 - **Kubelet**: Protecting the node agent (kubelet) and its APIs from unauthorized access.
- - **[Securing Kubelet](https://kubernetes.io/docs/tasks/administer-cluster/kubelet-security/)** Protecting the Kubelet and its API.
+  - **[Securing Kubelet](https://kubernetes.io/docs/tasks/administer-cluster/kubelet-security/)** Protecting the Kubelet and its API.
 - **Container Runtime**: Securing the container runtime (e.g., Docker, containerd).
- - **[Securing Container Runtime](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)** Securing container runtimes such as Docker and containerd in Kubernetes environments.
+  - **[Securing Container Runtime](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)** Securing container runtimes such as Docker and containerd in Kubernetes environments.
 - **KubeProxy**: Securing the Kubernetes network proxy and its configurations.
- - **[KubeProxy Security](https://kubernetes.io/docs/concepts/services-networking/network-policies/)** Securing the KubeProxy network proxy and configurations.
+  - **[KubeProxy Security](https://kubernetes.io/docs/concepts/services-networking/network-policies/)** Securing the KubeProxy network proxy and configurations.
 - **Pod**: Understanding Pod-level security, including PodSecurityPolicies and context.
- - **[Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)** Ensuring Pod-level security and enforcing security policies.
+  - **[Pod Security Policies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)** Ensuring Pod-level security and enforcing security policies.
 - **Etcd**: Securing etcd, the cluster's key-value store, to prevent data leakage or unauthorized access.
- - **[Securing etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-etcd/)** Guidelines for securing etcd, the key-value store.
+  - **[Securing etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-etcd/)** Guidelines for securing etcd, the key-value store.
 - **Container Networking**: Ensuring secure network configurations using CNI plugins and policies.
- - **[Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)** Securing networking with CNI plugins and policies.
+  - **[Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)** Securing networking with CNI plugins and policies.
 - **Client Security**: Best practices for securing Kubernetes client tools like kubectl.
- - **[Securing kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)** Securing client tools like `kubectl` for managing Kubernetes.
+  - **[Securing kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)** Securing client tools like `kubectl` for managing Kubernetes.
 - **Storage**: Securing Kubernetes storage solutions, including volumes and storage classes.
- - **[Securing Storage in Kubernetes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)** Securing Kubernetes storage solutions, including volumes and storage classes.
+  - **[Securing Storage in Kubernetes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)** Securing Kubernetes storage solutions, including volumes and storage classes.
 
 ### Kubernetes Security Fundamentals (22%)
 - **Pod Security Standards**: Overview of Kubernetes Pod Security Standards (Baseline, Restricted, Privileged).
- - **[Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)**
+  - **[Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)**
 - **Pod Security Admissions**: Using admission controllers to enforce Pod security policies.
- - **[Pod Security Admission](https://kubernetes.io/docs/tasks/configure-pod-container/pod-security-admission/)**
+  - **[Pod Security Admission](https://kubernetes.io/docs/tasks/configure-pod-container/pod-security-admission/)**
 - **Authentication**: Authentication mechanisms like Service Accounts, OIDC, and Certificates.
- - **[Authentication in Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)** Authentication mechanisms in Kubernetes including Service Accounts and OIDC.
+  - **[Authentication in Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)** Authentication mechanisms in Kubernetes including Service Accounts and OIDC.
 - **Authorization**: Managing permissions with RBAC and ABAC.
- - **[Authorization in Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)**
+  - **[Authorization in Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)**
 - **Secrets**: Secure management of sensitive data in Kubernetes using Secrets.
- - **[Managing Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)**
+  - **[Managing Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)**
 - **Isolation and Segmentation**: Techniques for isolating workloads using namespaces and labels.
- - **[Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)**
+  - **[Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)**
 - **Audit Logging**: Configuring Kubernetes audit logs for security visibility.
- - **[Kubernetes Audit Logs](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/)**
+  - **[Kubernetes Audit Logs](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/)**
 - **Network Policy**: Implementing Kubernetes NetworkPolicies to control network traffic.
- - **[Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)**
+  - **[Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)**
 
 ### Kubernetes Threat Model (16%)
 - **Kubernetes Trust Boundaries and Data Flow**: Understanding boundaries within Kubernetes to identify and mitigate risks.
- - **[Kubernetes Trust Boundaries](https://kubernetes.io/docs/concepts/security/cluster-identity/)**
+  - **[Kubernetes Trust Boundaries](https://kubernetes.io/docs/concepts/security/cluster-identity/)**
 - **Persistence**: Recognizing and preventing unauthorized persistence within the cluster.
- - **[Kubernetes Persistence and Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)** Techniques for preventing unauthorized persistence within the Kubernetes cluster.
+  - **[Kubernetes Persistence and Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)** Techniques for preventing unauthorized persistence within the Kubernetes cluster.
 - **Denial of Service**: Identifying and mitigating DoS attacks in Kubernetes environments.
- - **[Denial of Service Prevention](https://kubernetes.io/docs/concepts/cluster-administration/networking/)** Mitigating Denial of Service (DoS) attacks within Kubernetes.
+  - **[Denial of Service Prevention](https://kubernetes.io/docs/concepts/cluster-administration/networking/)** Mitigating Denial of Service (DoS) attacks within Kubernetes.
 - **Malicious Code Execution and Compromised Applications in Containers**: Handling risks related to malicious or vulnerable containers.
- - **[Securing Workloads](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Protecting against malicious code execution and securing containerized applications.
+  - **[Securing Workloads](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Protecting against malicious code execution and securing containerized applications.
 - **Attacker on the Network**: Securing against attackers attempting lateral movement in the network.
- - **[Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)**
+  - **[Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)**
 - **Access to Sensitive Data**: Protecting sensitive data within clusters from unauthorized access.
- - **[Secrets Management](https://kubernetes.io/docs/concepts/configuration/secret/)** Protecting sensitive data from unauthorized access in Kubernetes.
+  - **[Secrets Management](https://kubernetes.io/docs/concepts/configuration/secret/)** Protecting sensitive data from unauthorized access in Kubernetes.
 - **Privilege Escalation**: Preventing attackers from gaining elevated privileges.
- - **[Kubernetes Security Best Practices](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Preventing privilege escalation within a Kubernetes cluster.
+  - **[Kubernetes Security Best Practices](https://kubernetes.io/docs/tutorials/kubernetes-security/)** Preventing privilege escalation within a Kubernetes cluster.
 
 ### Platform Security (16%)
 - **Supply Chain Security**: Ensuring the integrity and security of the software supply chain.
- - **[Kubernetes Supply Chain Security](https://kubernetes.io/blog/2020/07/02/securing-the-software-supply-chain-with-kubernetes/)**
+  - **[Kubernetes Supply Chain Security](https://kubernetes.io/blog/2020/07/02/securing-the-software-supply-chain-with-kubernetes/)**
 - **Image Repository**: Securing container image repositories to prevent unauthorized access and tampering.
- - **[Securing Image Repositories](https://kubernetes.io/docs/tasks/configure-pod-container/container-image-security/)**
+  - **[Securing Image Repositories](https://kubernetes.io/docs/tasks/configure-pod-container/container-image-security/)**
 - **Observability**: Tools and practices for monitoring and securing Kubernetes environments.
- - **[Observability in Kubernetes](https://kubernetes.io/docs/tasks/debug/debug-cluster/)**
+  - **[Observability in Kubernetes](https://kubernetes.io/docs/tasks/debug/debug-cluster/)**
 - **Service Mesh**: Using service mesh technologies like Istio for securing service-to-service communication.
- - **[Service Mesh in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service-mesh/)**
+  - **[Service Mesh in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service-mesh/)**
 - **PKI**: Configuring public key infrastructure (PKI) for secure communications.
- - **[PKI in Kubernetes](https://kubernetes.io/docs/tasks/tls/certificate-approval/)**
+  - **[PKI in Kubernetes](https://kubernetes.io/docs/tasks/tls/certificate-approval/)**
 - **Connectivity**: Securing communication channels within and across clusters.
- - **[Securing Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)**
+  - **[Securing Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)**
 - **Admission Control**: Enforcing security policies during resource creation.
- - **[Admission Controllers](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/)**
+  - **[Admission Controllers](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/)**
 
 ### Compliance and Security Frameworks (10%)
 - **Compliance Frameworks**: Understanding compliance frameworks like GDPR, HIPAA, and PCI-DSS.
- - **[CIS Kubernetes Benchmark](https://kubernetes.io/docs/tasks/administer-cluster/cis-security-benchmark/)** Applying compliance frameworks like CIS Benchmarks to Kubernetes.
+  - **[CIS Kubernetes Benchmark](https://kubernetes.io/docs/tasks/administer-cluster/cis-security-benchmark/)** Applying compliance frameworks like CIS Benchmarks to Kubernetes.
 - **Threat Modelling Frameworks**: Utilizing frameworks like STRIDE and ATT&CK for identifying and mitigating threats.
- - **[MITRE ATT&CK for Containers](https://attack.mitre.org/matrices/enterprise/containers/)** Using threat modeling frameworks like ATT&CK to identify and mitigate risks in Kubernetes environments.
+  - **[MITRE ATT&CK for Containers](https://attack.mitre.org/matrices/enterprise/containers/)** Using threat modeling frameworks like ATT&CK to identify and mitigate risks in Kubernetes environments.
 - **Supply Chain Compliance**: Ensuring compliance in software supply chains.
- - **[Securing the Software Supply Chain](https://kubernetes.io/blog/2020/07/02/securing-the-software-supply-chain-with-kubernetes/)** Ensuring compliance
+  - **[Securing the Software Supply Chain](https://kubernetes.io/blog/2020/07/02/securing-the-software-supply-chain-with-kubernetes/)** Ensuring compliance
 - **Automation and Tooling**: Leveraging automation tools for enforcing security policies and standards.
 
 ---
