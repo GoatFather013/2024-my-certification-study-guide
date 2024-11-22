@@ -1,4 +1,4 @@
-# GitOps Guide
+# Certified GitOps Associate Guide
 
 ## My Thoughts on the Exam
 
