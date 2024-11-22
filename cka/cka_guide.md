@@ -66,3 +66,24 @@ I completed the exam in 80 minutes and scored a comfortable 98%.
 - [Know how to use Ingress controllers and Ingress resources](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 - [Know how to configure and use CoreDNS](https://kubernetes.io/docs/tasks/administer-cluster/coredns/)
 - [Choose an appropriate container network interface plugin](https://kubernetes.io/docs/concepts/cluster-administration/networking/#how-to-implement-the-kubernetes-networking-model)
+
+---
+
+## Additional Resources
+
+### Courses
+- **[Udemy: Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests)**
+- **[KodeKloud: CKA Certification Course - Certified Kubernetes Administrator](https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator)**
+
+### Practice Exams
+- **[Kodekloud: Udemy Labs - Certified Kubernetes Administrator with Practice Tests](https://learn.kodekloud.com/user/courses/udemy-labs-certified-kubernetes-administrator-with-practice-tests)**
+- **[KodeKloud: CKA Certification Course - Certified Kubernetes Administrator](https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator)**
+- **[Kodekloud: Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series](https://learn.kodekloud.com/user/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam-series)**
+- **[Killer: CKA Simulator](https://killer.sh/cka)**
+- **[Killercoda: CKA](https://killercoda.com/cka)**
+
+### Sources
+*None*
+
+### Time Spent
+*40 hours*
