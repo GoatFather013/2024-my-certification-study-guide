@@ -55,7 +55,6 @@ The repository contains various subfolders with information and resources for sp
 
 **Entry Level Certifications**
 - **[Python Certified Entry Programmer](./pcep-30-02/pcep_guide.md)** Guide for the Python Certified Entry Programmer 30-02 (PCEP) certification.
-  - 
   - **[PCEP Exam Syllabus](./pcep-30-02/pcep-30-02-exam-syllabus.pdf)** The exam syllabus for PCEP.
 
 **Associate Level Certifications**
