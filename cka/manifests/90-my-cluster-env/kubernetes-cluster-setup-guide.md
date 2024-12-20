@@ -4,7 +4,7 @@ This guide explains how to set up a Kubernetes cluster with one control plane an
 
 ## Prerequisites
 
-###Ensure all nodes (control plane and workers) have
+### Ensure the following on all nodes (control plane and workers).
 
 1. **Linux OS installed.**
 I used Ubuntu 22.04 for this cluster
