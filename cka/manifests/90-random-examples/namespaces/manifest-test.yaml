@@ -1,0 +1,9 @@
+## kubectl create namespace manifest-test --dry-run=client -o yaml > cka/manifests/namespaces/manifest-test.yaml
+## basic namespace manifest
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: manifest-test
+spec: {}
+status: {}

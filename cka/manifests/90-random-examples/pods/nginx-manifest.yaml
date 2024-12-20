@@ -1,0 +1,20 @@
+## kubectl run nginx-manifest --image=nginx:latest --dry-run=client -o yaml > cka/manifests/pods/nginx-manifest.yaml
+## basic nginx pod manifest
+
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx-manifest
+  name: nginx-manifest
+spec:
+  containers:
+  - image: nginx:latest
+    name: nginx-manifest
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "100m"
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}

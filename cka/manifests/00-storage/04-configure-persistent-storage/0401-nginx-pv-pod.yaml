@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx-pv-pod
+  name: nginx-pv-pod
+spec:
+  containers:
+  - image: nginx:latest
+    name: nginx-pv-pod
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "150m"
+      requests:
+        memory: "64Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/usr/share/nginx/html"
+      name: nginx-pv-storage
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+  volumes:
+  - name: nginx-pv-storage
+    persistentVolumeClaim:
+      claimName: standard-pv-claim

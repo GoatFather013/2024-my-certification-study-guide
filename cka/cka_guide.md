@@ -10,7 +10,7 @@ Here's what I've learned in preparation for the exam:
 - Always choose imperative over declarative.
 - The development of Kubernetes moves faster than I can learn.
 - Learn by doing.
-- Build your own Kubernetes cluster "The Hard Way."
+- Build your own Kubernetes cluster "The Hard Way".
 - Learn VIM!!
 - Learn JSON Path queries.
 
