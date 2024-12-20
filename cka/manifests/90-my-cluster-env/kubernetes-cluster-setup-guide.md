@@ -44,7 +44,7 @@ Should be enabled by default, but good to check
 
 ### 1. Configure Base Node Settings
 
-Run the `base-node-installer.sh` script on **all nodes** (control plane and worker nodes) to configure prerequisites.
+Run the [`base-node-installer.sh`](./91-cluster-config/base-node-installer.sh) script on **all nodes** (control plane and worker nodes) to configure prerequisites.
 
 #### Script Details:
 
@@ -165,7 +165,7 @@ config file for crictl
 
 ### 2. Initialize the Control Plane
 
-Run the `create-controlplane.sh` script on the **control plane node** to initialize the Kubernetes cluster.
+Run the [`create-controlplane.sh`](./91-cluster-config/create-controlplane.sh) script on the **control plane node** to initialize the Kubernetes cluster.
 
 #### Command:
 ```bash
@@ -184,7 +184,7 @@ kubeadm init --apiserver-advertise-address="<ip-address>" \
 
 ### 3. Join Worker Nodes
 
-Run the `join-workernode.sh` script on **each worker node** to join them to the control plane.
+Run the [`join-workernode.sh'](./91-cluster-config/join-workernode.sh) script on **each worker node** to join them to the control plane.
 
 #### Command:
 ```bash
