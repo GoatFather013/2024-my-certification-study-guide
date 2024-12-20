@@ -19,7 +19,7 @@ volumeBindingMode: WaitForFirstConsumer
 - **provisioner**: `kubernetes.io/no-provisioner` ensures storage is not dynamically provisioned.
 - **volumeBindingMode**: `WaitForFirstConsumer` ensures volumes are bound only when a Pod is scheduled.
 
-[Source: `0101-local-storage-class.yaml`](./01-storage-classes/0101-local-storage-class.yaml)
+Source: [`0101-local-storage-class.yaml`](./01-storage-classes/0101-local-storage-class.yaml)
 
 ---
 
@@ -48,7 +48,7 @@ spec:
 - **accessModes**: Allows the volume to be mounted as `ReadWriteOnce`.
 - **hostPath**: Uses the local filesystem at `/kubernetes/data`.
 
-[Source: `0201-standard-persistent-volume.yaml`](./02-persitent-volumes/0201-standard-persistent-volume.yaml)
+Source: [`0201-standard-persistent-volume.yaml`](./02-persitent-volumes/0201-standard-persistent-volume.yaml)
 
 ---
 
@@ -76,7 +76,7 @@ spec:
 - **accessModes**: Matches the PV's `ReadWriteOnce` mode.
 - **storageClassName**: Matches the `local-storage` class.
 
-[Source: `0202-standard-persistent-volume-claim.yaml`](./02-persitent-volumes/0202-standard-persistent-volume-claim.yaml)
+Source: [`0202-standard-persistent-volume-claim.yaml`](./02-persitent-volumes/0202-standard-persistent-volume-claim.yaml)
 
 ---
 
@@ -117,7 +117,7 @@ spec:
 - **volumeMounts**: Mounts the PVC at `/usr/share/nginx/html`.
 - **volumes.persistentVolumeClaim.claimName**: References the `standard-pv-claim` PVC.
 
-[Source: `nginx-pv-pod.yaml`](./04-configure-persistent-storage/0401-nginx-pv-pod.yaml)
+Source: [`nginx-pv-pod.yaml`](./04-configure-persistent-storage/0401-nginx-pv-pod.yaml)
 
 ---
 
