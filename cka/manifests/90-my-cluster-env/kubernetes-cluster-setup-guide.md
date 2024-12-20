@@ -132,7 +132,7 @@ config file for crictl
 9. **Install Kubernetes Tools**:
 
    ```bash
-   apt-get install containerd.io kubelet kubeadm kubectl -y
+   apt-get install containerd.io kube{let,ctl,adm}='1.30.0-*' -y
    apt-mark hold containerd.io kubelet kubeadm kubectl
    ```
 
