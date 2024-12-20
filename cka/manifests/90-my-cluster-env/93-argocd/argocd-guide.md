@@ -59,8 +59,10 @@ kubectl get service argocd-server -n argocd
 ```
 
 The output should look something like this:  
-NAME            TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)                      AGE  
-argocd-server   LoadBalancer   10.111.181.102   10.150.150.0   80:32365/TCP,443:30697/TCP   10d  
+
+| NAME          | TYPE         | CLUSTER-IP     | EXTERNAL-IP   | PORT(S)                      | AGE |
+|---------------|--------------|----------------|---------------|------------------------------|-----|
+| argocd-server | LoadBalancer | 10.111.181.102 | 10.150.150.0  | 80:32365/TCP, 443:30697/TCP  | 10d |
 
 Log in to Argo CD using the CLI:  
 
