@@ -4,16 +4,16 @@ This guide explains how to set up a Kubernetes cluster with one control plane an
 
 ## Prerequisites
 
-### Ensure the following on all nodes (control plane and workers).
+### Ensure the following on all nodes (control plane and workers)
 
-1. **Linux OS installed.** /
-I used Ubuntu 22.04 for this cluster /
+1. **Linux OS installed.**  
+I used Ubuntu 22.04 for this cluster  
 
-2. **SSH access enabled.** /
-Should be enabled by default, but good to check /
+2. **SSH access enabled.**  
+Should be enabled by default, but good to check  
 
-3. **Proper IP and hostname configuration.** /
-3.1. *Netplan example `/etc/netplan/netplan.yaml`:* /
+3. **Proper IP and hostname configuration.**  
+3.1. *Netplan example `/etc/netplan/netplan.yaml`:*  
 
    ```yaml
    network:
@@ -32,7 +32,7 @@ Should be enabled by default, but good to check /
    version: 2
    ```
 
-3.2. *Hostname example `hostnamectl`:* /
+3.2. *Hostname example `hostnamectl`:*  
 
    ```bash
    hostnamectl hostname "nodename"
