@@ -32,6 +32,7 @@ I completed the exam in 80 minutes and scored a comfortable 98%.
 
 ### Storage (10%)
 - [Understand storage classes, persistent volumes](https://kubernetes.io/docs/concepts/storage/storage-classes/)
+  - [local storage example](./manifests/00-storage/storage-simple-local-storage.md)
 - [Understand volume mode, access modes and reclaim policies for volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#volume-modes)
 - [Understand persistent volume claims primitive](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)
 - [Know how to configure applications with persistent storage](https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/)
@@ -83,6 +84,7 @@ I completed the exam in 80 minutes and scored a comfortable 98%.
 - **[Kodekloud: Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series](https://learn.kodekloud.com/user/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam-series)**
 - **[Killer: CKA Simulator](https://killer.sh/cka)**
 - **[Killercoda: CKA](https://killercoda.com/cka)**
+- **[Build your own cluster](./manifests/90-my-cluster-env/kubernetes-cluster-setup-guide.md)**
 
 ### Sources
 *None*
