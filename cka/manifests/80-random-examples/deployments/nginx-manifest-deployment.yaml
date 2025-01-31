@@ -1,0 +1,31 @@
+## kubectl create deployment nginx-manifest-deployment --image=nginx:1.14 --dry-run=client -o yaml > cka/manifests/deployments/nginx-manifest-deployment.yaml
+## basic nginx deployment manifest
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx-manifest-deployment
+  name: nginx-manifest-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-manifest-deployment
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: nginx-manifest-deployment
+    spec:
+      containers:
+      - image: nginx:1.14
+        name: nginx
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+status: {}
